@@ -25,7 +25,7 @@ export default function Navbar() {
               onMouseEnter={() => setEventsOpen(true)}
               onMouseLeave={() => setEventsOpen(false)}
             >
-              <span className="cursor-pointer item-effect">EVENTS</span>
+              <NavLink className="block item-effect" to="/events">EVENTS</NavLink>
               {isEventsOpen && (
                 <div className="dropdown-menu duration-100">
                   <NavLink to="/venturative">Venturative</NavLink>
@@ -97,7 +97,7 @@ export default function Navbar() {
         {/* Dropdown Menu */}
         <nav className={`absolute top-24 right-0 w-full bg-white p-4 text-left transition-transform duration-300 font-semibold space-y-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
           <NavLink to="/" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Activities</NavLink>
-          <NavLink to="/about" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Events</NavLink>
+          <NavLink to="/events" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Events</NavLink>
 
           <div className="relative ml-8">
             <button
