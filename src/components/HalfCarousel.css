@@ -1,0 +1,13 @@
+
+.custom-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+@media (max-width: 768px) { 
+  .custom-grid {
+    grid-template-columns: 1fr !important; 
+  }
+}
+
+  
