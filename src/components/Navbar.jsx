@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* Logo */}
           <div className='col-span-2 w-7/12 mx-auto hover:scale-75 duration-700 relative'>
-            <Link to="#" ><img className='-top-24 absolute' src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="" /></Link>
+            <Link to="/" ><img className='-top-24 absolute' src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="" /></Link>
           </div>
 
           <nav className=' col-span-3 gap-4 grid md:grid-cols-3 mt-4'>
@@ -95,7 +95,7 @@ export default function Navbar() {
         </button>
 
         {/* Dropdown Menu */}
-        <nav className={`absolute top-24 right-0 w-full bg-white p-4 text-left transition-transform duration-300 font-semibold space-y-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <nav className={`absolute z-30 top-24 right-0 w-full bg-white p-4 text-left transition-transform duration-300 font-semibold space-y-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
           <NavLink to="/" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Activities</NavLink>
           <NavLink to="/events" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Events</NavLink>
 

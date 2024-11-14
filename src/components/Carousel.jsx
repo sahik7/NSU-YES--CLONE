@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 const images = [
   'https://i.ibb.co/qD2hCdv/428689853-798957418940865-5610077066328262445-n.jpg',
@@ -9,6 +10,11 @@ const images = [
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const navigate = useNavigate();
+  const handleScrollToAbout = () => {
+    console.log("clicked")
+    navigate('/#about');
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -33,7 +39,8 @@ const Carousel = () => {
             <p className="mx-auto sm:w-1/2 lg:w-full">
               Legacy envisioned, and in motion. Are you ready for what awaits? <span className="font-semibold">Join. Experience... Achieve...</span>
             </p>
-            <button className="carousel-button py-3 rounded px-5 text-sm hover:scale-110 duration-150">EXPLORE MORE</button>
+            <button onClick={handleScrollToAbout} className="carousel-button rounded text-sm hover:scale-110 duration-150">EXPLORE MORE</button>
+          
           </div>
         </div>
       ))}

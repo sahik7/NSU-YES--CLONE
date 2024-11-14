@@ -1,9 +1,19 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 function AboutUs() {
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === '#about') {
+          const element = document.getElementById('about');
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, [location]);
   return (
-    <div className='grid md:grid-cols-2 sm:grid-cols-1 px-5 font-poppins items-center my-24 md:my-32'>
+    <div id='about' className='grid md:grid-cols-2 sm:grid-cols-1 px-5 font-poppins items-center my-24 md:my-32'>
         <div>
             <img className='w-[80%] mx-auto' src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="" />
         </div>
