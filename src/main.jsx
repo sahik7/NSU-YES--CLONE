@@ -14,6 +14,7 @@ import Admaker from './Admaker';
 import Ideation from './Ideation';
 import CorporateIcons from './CorporateIcons';
 import ExecutiveBody from './components/ExecutiveBody';
+import Publications from './components/Publications';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,14 @@ const router = createBrowserRouter([
       {
         path:"/executive-board",
         element:<ExecutiveBody/>
+      },
+      {
+        path:"/executive-board",
+        element:<ExecutiveBody/>
+      },
+      {
+        path:"/publications",
+        element:<Publications/>
       },
     ]
   },
