@@ -16,6 +16,7 @@ import CorporateIcons from './CorporateIcons';
 import ExecutiveBody from './components/ExecutiveBody';
 import Publications from './components/Publications';
 import SubBody from './components/SubBody';
+import CurrentFaculty from './components/currentFaculty';
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path:"/sub-executive-board",
         element:<SubBody/>
+      },
+      {
+        path:"/mirza-m-ferdous",
+        element:<CurrentFaculty/>
       },
       {
         path:"/publications",
