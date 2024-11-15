@@ -37,13 +37,13 @@ In this journey of excellence, different organizations all across Bangladesh lik
                 <p className='text-md font-semibold'>Follow Us</p>
                 <div className='flex gap-4'>
                 <span  className='h-6 border-l-[1px] border-[#09529e]'></span>
-                    <Link><img className='w-[100%]' src="https://i.ibb.co.com/SKhGg5f/Artboard-2-copy-2.png" alt="" /></Link>
+                    <Link to="https://www.youtube.com/c/NSUYES"><img className='w-[100%]' src="https://i.ibb.co.com/SKhGg5f/Artboard-2-copy-2.png" alt="" /></Link>
                 <span  className='h-6 border-l-[1px] border-[#09529e]'></span>
-                    <Link><img className='w-[88%]' src="https://i.ibb.co.com/4KxSFy4/Artboard-2-copy-3.png" alt="" /></Link>
+                    <Link to="https://www.facebook.com/nsuyes/"><img className='w-[88%]' src="https://i.ibb.co.com/4KxSFy4/Artboard-2-copy-3.png" alt="" /></Link>
                 <span  className='h-6 border-l-[1px] border-[#09529e]'></span>
-                    <Link><img className='w-[98%]' src="https://i.ibb.co.com/vQ5n8bj/Artboard-2-copy.png" alt="" /></Link>
+                    <Link to="https://www.linkedin.com/company/nsuyes/"><img className='w-[98%]' src="https://i.ibb.co.com/vQ5n8bj/Artboard-2-copy.png" alt="" /></Link>
                 <span  className='h-6 border-l-[1px] border-[#09529e]'></span>
-                    <Link><img src="https://i.ibb.co.com/1LsLzt3/Artboard-2.png" alt="" /></Link>
+                    <Link to="https://www.instagram.com/nsuyesofficial/"><img src="https://i.ibb.co.com/1LsLzt3/Artboard-2.png" alt="" /></Link>
                 </div>
             </div>
         </div>

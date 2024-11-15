@@ -17,6 +17,14 @@ export const cardItems = [
 
     },
     {
+        img:"https://nsuyes.org/wp-content/uploads/2022/06/Ad-Maker-Bangladesh-by-NSU-YES.webp",
+        title:"Admaker Bangladesh",
+        description:"The Competition received recognition for being the largest and the most competitive inter-university 360-degree marketing competition",
+        highlight:"INTER UNIVERSITY MARKETING COMPETITION ",
+        link:"/admaker-bangladesh-2019"
+
+    },
+    {
         img:"https://nsuyes.org/wp-content/uploads/2022/06/Masters-of-Ideation-by-NSU-YES.webp",
         title:"Masters Of Ideation	",
         description:"  NSU YES! hosted its strategic business case-solving competition online for the very first time in its 25-year history.",
