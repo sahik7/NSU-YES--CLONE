@@ -13,6 +13,7 @@ import Entrepret from './components/Entrepret';
 import Admaker from './Admaker';
 import Ideation from './Ideation';
 import CorporateIcons from './CorporateIcons';
+import Escalate from './components/Escalate';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path:"/nsuers-meet-corporate-icons",
         element:<CorporateIcons/>
+      },
+      {
+        path:"/escalate",
+        element:<Escalate/>
       },
     ]
   },

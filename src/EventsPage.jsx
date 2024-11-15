@@ -1,6 +1,6 @@
 import React from 'react'
-import { cardItems } from './components/HomeEvents'
 import HomeEventsCard from './components/HomeEventsCard'
+import { cardItems } from './data/cardItems'
 
 function EventsPage() {
   return (

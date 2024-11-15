@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HomeEventsCard({cardItem}) {
-    const {img, title,description,highlight} = cardItem
+    const {img, title,description,highlight,link} = cardItem
   return (
     <div className="rounded-[15px] overflow-hidden shadow-lg my-10">
   <div className="overflow-hidden">
@@ -16,9 +17,11 @@ function HomeEventsCard({cardItem}) {
     <p className="text-gray-700 text-base">
       <b>{highlight}</b> {description}
     </p>
-    <button className="text-sm rounded mt-5 py-2 px-5 border border-gray-600 hover:border-[#218ced] hover:text-[#218ced]">
+    <div className='my-5'>
+    <Link to={`${link}`} className="text-sm rounded  py-2 px-5 border border-gray-600 hover:border-[#218ced] hover:text-[#218ced]">
       See More
-    </button>
+    </Link>
+    </div>
   </div>
 </div>
   );
