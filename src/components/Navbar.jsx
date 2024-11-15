@@ -14,10 +14,10 @@ export default function Navbar() {
 
   return (
     <div>
-      <img className='absolute top-0 w-full' src="https://i.ibb.co.com/642Nx4B/Untitled-1.jpg" alt="" />
-      <div>
-        <div className='hidden md:grid md:grid-cols-8 font-poppins text-[14px] py-14 mt-10 font-medium'>
-          <nav className='flex col-span-3 gap-14 justify-center items-center mt-4'>
+      <img className='relative -top-2 w-full' src="https://i.ibb.co.com/642Nx4B/Untitled-1.jpg" alt="" />
+      <div className=''>
+        <div className='bg-white md:h-[3rem] relative top-2 hidden md:grid md:grid-cols-8 font-poppins text-[14px] font-medium'>
+          <nav className='flex relative z-10 col-span-3 gap-x-14 justify-center items-center mt-4'>
             <NavLink className="item-effect" to="/#">ACTIVITIES</NavLink>
 
             <div
@@ -53,11 +53,11 @@ export default function Navbar() {
           </nav>
 
           {/* Logo */}
-          <div className='col-span-2 w-7/12 mx-auto hover:scale-75 duration-700 relative'>
+          <div className='col-span-2 w-7/12 mx-auto hover:scale-75 duration-700 top-6 z-10 relative'>
             <Link to="/" ><img className='-top-24 absolute' src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="" /></Link>
           </div>
 
-          <nav className=' flex col-span-3 gap-14 items-center mt-4'>
+          <nav className=' flex relative z-10 col-span-3 gap-x-14 justify-center items-center mt-4'>
             <div
               className="nav-item relative"
               onMouseEnter={() => setFacultyOpen(true)}
@@ -80,20 +80,25 @@ export default function Navbar() {
       {/* MOBILE RESPONSIVE */}
 
       <div>
-      <div className="md:hidden flex items-center justify-between px-4 py-4 bg-white text-white">
+        <div className=' bg-white text-white h-[2rem] md:hidden '>
+      <div className="flex items-center justify-between w-10/12 mx-auto">
         {/* Left: Logo */}
-        <Link to="/" className="text-xl font-bold mt-4 ml-5">
-          <img src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="Logo" className="w-14 h-14" />
+        <div>
+        <Link to="/" className="text-xl font-bold">
+          <img src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="Logo" className="w-16 h-16" />
         </Link>
+        </div>
 
         {/* Right: Burger Menu */}
+        <div>
         <button
           onClick={() => setMenuOpen(!isMenuOpen)}
-          className="text-2xl focus:outline-none text-[#09529e] mr-8 mt-2" 
+          className="text-2xl focus:outline-none text-[#09529e]" 
         >
           {isMenuOpen ? <FontAwesomeIcon icon={faXmark}/> :  <FontAwesomeIcon icon={faBars} />}
         </button>
-
+        </div>
+        </div>
         {/* Dropdown Menu */}
         <nav className={`absolute z-30 top-24 right-0 w-full bg-white p-4 text-left transition-transform duration-300 font-semibold space-y-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
           <NavLink to="/" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Activities</NavLink>
