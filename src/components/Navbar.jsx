@@ -16,7 +16,7 @@ export default function Navbar() {
     <div>
       <img className='absolute top-0 w-full' src="https://i.ibb.co.com/642Nx4B/Untitled-1.jpg" alt="" />
       <div>
-        <div className='hidden md:grid md:grid-cols-8 font-poppins text-[17px] py-14 mt-10 font-semibold'>
+        <div className='hidden md:grid md:grid-cols-8 font-poppins text-[14px] py-14 mt-10 font-medium'>
           <nav className='flex col-span-3 gap-14 justify-center items-center mt-4'>
             <NavLink className="item-effect" to="/#">ACTIVITIES</NavLink>
 
@@ -25,7 +25,7 @@ export default function Navbar() {
               onMouseEnter={() => setEventsOpen(true)}
               onMouseLeave={() => setEventsOpen(false)}
             >
-              <NavLink className="block item-effect" to="/events">EVENTS</NavLink>
+              <NavLink className="block item-effect" to="/events">EVENTS <FontAwesomeIcon icon={faCaretDown} className="ml-2" /></NavLink>
               {isEventsOpen && (
                 <div className="dropdown-menu duration-100">
                   <NavLink to="/venturative">Venturative</NavLink>
@@ -42,7 +42,7 @@ export default function Navbar() {
               onMouseEnter={() => setGoverningOpen(true)}
               onMouseLeave={() => setGoverningOpen(false)}
             >
-              <span className="cursor-pointer item-effect">GOVERNING PANEL</span>
+              <span className="cursor-pointer item-effect">GOVERNING PANEL <FontAwesomeIcon icon={faCaretDown} className="ml-2" /></span>
               {isGoverningOpen && (
                 <div className="dropdown-menu">
                   <NavLink className={"item-effect"} to="/executive-board">Executive Board</NavLink>
@@ -57,13 +57,13 @@ export default function Navbar() {
             <Link to="/" ><img className='-top-24 absolute' src="https://i.ibb.co/vszJ5w8/NSU-YES-New-logo-in-png-ezgif-com-webp-to-png-converter.png" alt="" /></Link>
           </div>
 
-          <nav className=' col-span-3 gap-4 grid md:grid-cols-3 mt-4'>
+          <nav className=' flex col-span-3 gap-14 items-center mt-4'>
             <div
               className="nav-item relative"
               onMouseEnter={() => setFacultyOpen(true)}
               onMouseLeave={() => setFacultyOpen(false)}
             >
-              <span className="cursor-pointer item-effect">FACULTY ADVISORS</span>
+              <span className="cursor-pointer item-effect">FACULTY ADVISORS <FontAwesomeIcon icon={faCaretDown} className="ml-2" /></span>
               {isFacultyOpen && (
                 <div className="dropdown-menu">
                   <NavLink to="/mirza-m-ferdous">Mirza M. Ferdous</NavLink>

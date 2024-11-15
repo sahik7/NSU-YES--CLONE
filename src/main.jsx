@@ -13,7 +13,7 @@ import Entrepret from './components/Entrepret';
 import Admaker from './Admaker';
 import Ideation from './Ideation';
 import CorporateIcons from './CorporateIcons';
-import Escalate from './components/Escalate';
+import ExecutiveBody from './components/ExecutiveBody';
 
 const router = createBrowserRouter([
   {
@@ -49,8 +49,8 @@ const router = createBrowserRouter([
         element:<CorporateIcons/>
       },
       {
-        path:"/escalate",
-        element:<Escalate/>
+        path:"/executive-board",
+        element:<ExecutiveBody/>
       },
     ]
   },

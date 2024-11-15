@@ -44,6 +44,6 @@ export const cardItems = [
         title:"Escalate	",
         description:"NSU YES! plans to empower entrepreneurship and scalability among the student body of NSU from the authentic tales of success in the four engaging sessions.",
         highlight:"A DEVELOPMENT SUMMIT BY NSU YES!. ",
-        link:"/escalate"
+        link:""
 
     }]
