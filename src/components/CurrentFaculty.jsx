@@ -22,7 +22,6 @@ function CurrentFaculty() {
   <img
     className="w-full h-auto"
     src="https://nsuyes.org/wp-content/uploads/2023/04/Faculty-Advisor_Mirza-M.-Ferdous-1193x1536.jpg"
-    alt="Faculty Advisor"
   />
   <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
   <Link className='relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/4' to="https://www.northsouth.edu/faculty-members/sbe/acc-fin/mzf.html" target="_blank">

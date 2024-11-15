@@ -17,6 +17,7 @@ import ExecutiveBody from './components/ExecutiveBody';
 import Publications from './components/Publications';
 import SubBody from './components/SubBody';
 import CurrentFaculty from './components/currentFaculty';
+import PreviousAdvisors from './components/PreviousAdvisors';
 
 const router = createBrowserRouter([
   {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path:"/publications",
         element:<Publications/>
+      },
+      {
+        path:"/previous-advisors",
+        element:<PreviousAdvisors/>
       },
     ]
   },
