@@ -1,6 +1,6 @@
 import React from 'react'
-import { exItems } from '../data/exBody'
 import ExecutiveBodyCard from './ExecutiveBodyCard'
+import { exItems23 } from '../data/exBody23-24'
 
 
 function ExecutiveBody() {
@@ -21,7 +21,7 @@ function ExecutiveBody() {
     <h1 className='text-center text-lg md:text-xl font-medium mt-3 md:mt-5 font-poppins'>Fiscal Year 2023-2024</h1>
 
     <div className=" grid md:grid-cols-2 gap-4 my-10 w-11/12 mx-auto">
- {exItems.map(exItem => <ExecutiveBodyCard exItem={exItem}/>)}
+ {exItems23.map(exItem => <ExecutiveBodyCard exItem={exItem}/>)}
 </div>
     
     </div>

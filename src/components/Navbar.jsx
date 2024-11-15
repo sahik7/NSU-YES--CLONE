@@ -133,8 +133,8 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <NavLink to="/contact" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Publications</NavLink>
-          <NavLink to="/contact" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Hall Of Fame</NavLink>
+          <NavLink to="/publications" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Publications</NavLink>
+          <NavLink to="/hall-of-fame" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Hall Of Fame</NavLink>
         </nav>
       </div>
     </div>

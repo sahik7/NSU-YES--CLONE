@@ -1,4 +1,4 @@
-export const exItems = [
+export const exItems23 = [
     {
         img:"https://nsuyes.org/wp-content/uploads/2023/05/EB-_-Sarah-Marzia-858x1024.webp",
         name:"Sarah Marzia",

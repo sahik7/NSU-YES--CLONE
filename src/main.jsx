@@ -13,11 +13,12 @@ import Entrepret from './components/Entrepret';
 import Admaker from './Admaker';
 import Ideation from './Ideation';
 import CorporateIcons from './CorporateIcons';
-import ExecutiveBody from './components/ExecutiveBody';
 import Publications from './components/Publications';
 import SubBody from './components/SubBody';
 import CurrentFaculty from './components/currentFaculty';
 import PreviousAdvisors from './components/PreviousAdvisors';
+import HallOfFame from './components/HallOfFame';
+import ExecutiveBody from './components/ExecutiveBody';
 
 const router = createBrowserRouter([
   {
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path:"/previous-advisors",
         element:<PreviousAdvisors/>
+      },
+      {
+        path:"/hall-of-fame",
+        element:<HallOfFame/>
       },
     ]
   },
