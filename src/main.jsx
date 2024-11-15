@@ -8,6 +8,11 @@ import {
 import { Home } from './components/Home';
 import App from './App';
 import EventsPage from './EventsPage';
+import Venturative from './components/Venturative';
+import Entrepret from './components/Entrepret';
+import Admaker from './Admaker';
+import Ideation from './Ideation';
+import CorporateIcons from './CorporateIcons';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +26,26 @@ const router = createBrowserRouter([
       {
         path:"/events",
         element:<EventsPage/>
+      },
+      {
+        path:"/venturative",
+        element:<Venturative/>
+      },
+      {
+        path:"/entrepret",
+        element:<Entrepret/>
+      },
+      {
+        path:"/admaker-bangladesh-2019",
+        element:<Admaker/>
+      },
+      {
+        path:"/masters-of-ideation",
+        element:<Ideation/>
+      },
+      {
+        path:"/nsuers-meet-corporate-icons",
+        element:<CorporateIcons/>
       },
     ]
   },
