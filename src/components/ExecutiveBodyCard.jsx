@@ -12,7 +12,7 @@ function ExecutiveBodyCard({ exItem }) {
         Llink } = exItem
     return (
         <div className='font-poppins overflow-hidden shadow-lg rounded-2xl border'>
-            <div className="overflow-hidden h-[35rem]">
+            <div className="overflow-hidden h-auto">
                 <img
                     className="w-full h-auto "
                     src={img}
@@ -25,8 +25,8 @@ function ExecutiveBodyCard({ exItem }) {
                 </p>
                 <p className='font-light text-sm mt-4 md:w-11/12 md:mx-auto'>{description}</p>
                 {/* Socials */}
-                <div className='w-1/12 mx-auto mt-10'>
-                    <div className='my-5 flex   justify-evenly items-center'>
+                <div className='w-4/12 md:w-2/12 mx-auto mt-10'>
+                    <div className='my-5 flex justify-evenly items-center'>
                         <Link to={Flink} className="text-[#09529e]">
                             <FontAwesomeIcon icon={faFacebookF} className='w-4 h-4 bg-[#09529e]/10 p-2 rounded' />
                         </Link>

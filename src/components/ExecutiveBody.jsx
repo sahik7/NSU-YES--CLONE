@@ -7,7 +7,7 @@ function ExecutiveBody() {
   return (
     <div>
         {/* Full-width Banner */}
-      <div className="relative w-full h-[33rem]">
+      <div className="relative w-full h-auto">
         <img src="https://nsuyes.org/wp-content/uploads/2023/05/Executive-Body-Member-FY-2023-2024-Cover-1024x432.webp" className="w-full h-full object-cover" />
       </div>
       <div className='flex items-center gap-2 justify-center my-5 font-poppins'>
