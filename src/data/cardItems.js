@@ -1,12 +1,5 @@
 export const cardItems = [
-    {
-        img:"https://nsuyes.org/wp-content/uploads/2022/06/Ad-Maker-Bangladesh-by-NSU-YES.webp",
-        title:"Admaker Bangladesh",
-        description:"The Competition received recognition for being the largest and the most competitive inter-university 360-degree marketing competition.",
-        highlight:"Inter University Marketing Competition ",
-        link:"/admaker-bangladesh-2019"
-
-    },
+    
     {
         img:"https://nsuyes.org/wp-content/uploads/2022/06/Venturative-by-NSU-YES.webp",
         title:"Venturative",

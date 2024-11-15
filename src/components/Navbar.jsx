@@ -100,7 +100,7 @@ export default function Navbar() {
         </div>
         </div>
         {/* Dropdown Menu */}
-        <nav className={`absolute z-30 top-24 right-0 w-full bg-white p-4 text-left transition-transform duration-300 font-semibold space-y-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <nav className={`absolute z-30 top-23 right-0 w-full bg-white p-4 text-left transition-transform duration-300 font-semibold space-y-3 ${isMenuOpen ? 'block' : 'hidden'}`}>
           <NavLink to="/" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Activities</NavLink>
           <NavLink to="/events" className="ml-8 block py-2 text-[#09529e] text-sm" onClick={() => setMenuOpen(false)}>Events</NavLink>
 

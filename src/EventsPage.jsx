@@ -5,11 +5,11 @@ import { cardItems } from './data/cardItems'
 function EventsPage() {
   return (
     <div >
-       <div className="font-poppins">
+       <div className="font-poppins relative top-9">
         <img 
             src="https://nsuyes.org/wp-content/uploads/2022/06/NSU-YES-all-events.jpg" 
             alt="Event" 
-            className="object-cover object-top md:object-none  w-full h-full" 
+            className="object-cover object-top w-full" 
         />
         <div className='py-6'>
     <div className="flex items-center gap-2 justify-center mt-5">

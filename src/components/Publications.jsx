@@ -5,7 +5,7 @@ function Publications() {
   return (
     <div className='font-poppins'>
         {/* Full-width Banner */}
-        <div className="relative w-full h-[20rem]">
+        <div className="relative top-9 w-full h-[20rem]">
   <img 
     src="https://nsuyes.org/wp-content/uploads/2022/06/Publication-by-NSU-YES.webp" 
     className="w-full h-full object-cover" 
@@ -34,12 +34,12 @@ function Publications() {
 
 {/* Left Part */}
 <div className='md:my-0 my-4'>
-<div className='flex items-center gap-2 justify-center'>
+<div className='flex items-center gap-2 justify-center mt-4'>
         <p className='text-[12px] font-semibold text-[#09529e]'>
         BROCHURES
             </p>
         </div>
-    <h1 className='text-center text-5xl font-semibold mt-4'>BROCHURES</h1>
+    <h1 className='text-center text-5xl font-semibold '>BROCHURES</h1>
     <div className='w-10/12 mx-auto'>
     <BrochuresCarousel />
     </div>

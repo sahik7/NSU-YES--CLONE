@@ -7,10 +7,10 @@ function ExecutiveBody() {
   return (
     <div>
         {/* Full-width Banner */}
-      <div className="relative w-full h-auto">
+      <div className="relative top-9 w-full md:h-[30rem]">
         <img src="https://nsuyes.org/wp-content/uploads/2023/05/Executive-Body-Member-FY-2023-2024-Cover-1024x432.webp" className="w-full h-full object-cover" />
       </div>
-      <div className='flex items-center gap-2 justify-center my-5 font-poppins'>
+      <div className='flex mt-20 items-center gap-2 justify-center my-5 font-poppins'>
         <span className="border-b border-b-[#09529e] w-6"></span>
         <p className='text-[12px] font-semibold text-[#09529e]'>
         GOVERNING PANEL

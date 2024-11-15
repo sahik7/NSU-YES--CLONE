@@ -15,6 +15,7 @@ import Ideation from './Ideation';
 import CorporateIcons from './CorporateIcons';
 import ExecutiveBody from './components/ExecutiveBody';
 import Publications from './components/Publications';
+import SubBody from './components/SubBody';
 
 const router = createBrowserRouter([
   {
@@ -54,8 +55,8 @@ const router = createBrowserRouter([
         element:<ExecutiveBody/>
       },
       {
-        path:"/executive-board",
-        element:<ExecutiveBody/>
+        path:"/sub-executive-board",
+        element:<SubBody/>
       },
       {
         path:"/publications",

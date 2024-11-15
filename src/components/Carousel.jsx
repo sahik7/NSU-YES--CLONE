@@ -26,7 +26,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel relative top-10 border border-yellow-500 font-poppins">
+    <div className="carousel relative top-10 font-poppins">
       {images.map((image, index) => (
         <div
           className={`carousel-item ${index === currentIndex ? 'active' : ''}`}

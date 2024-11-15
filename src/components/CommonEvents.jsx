@@ -19,7 +19,7 @@ function CommonEvents({ event }) {
   return (
     <div>
       {/* Full-width Banner */}
-      <div className="relative w-full h-64 lg:h-96">
+      <div className=" relative top-9 w-full h-64 lg:h-96">
         <img src={bannerImage} alt="Event Banner" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
