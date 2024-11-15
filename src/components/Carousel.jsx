@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const images = [
   'https://i.ibb.co/qD2hCdv/428689853-798957418940865-5610077066328262445-n.jpg',
@@ -35,7 +35,7 @@ const Carousel = () => {
           <img src={image} alt={`Slide ${index + 1}`} />
           <div className="carousel-overlay" />
           <div className="carousel-content space-y-5">
-            <h1 className="font-bold sm:text-2xl md:text-7xl">Young Entrepreneurs Society!</h1>
+            <h1 className="font-bold text-4xl md:text-7xl">Young Entrepreneurs Society!</h1>
             <p className="mx-auto sm:w-1/2 lg:w-full">
               Legacy envisioned, and in motion. Are you ready for what awaits? <span className="font-semibold">Join. Experience... Achieve...</span>
             </p>
