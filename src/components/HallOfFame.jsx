@@ -2,6 +2,8 @@ import React from 'react'
 import HallCarousel from './HallCarousel'
 import { exItems23 } from '../data/exBody23-24';
 import { exItems22 } from '../data/exBody22-23';
+import { exItems21 } from '../data/exBody21-22';
+import { exItems19 } from '../data/exBody19-20';
 
 function HallOfFame() {
   return (
@@ -22,8 +24,8 @@ function HallOfFame() {
 <div className='space-y-16'>
     <HallCarousel exItems={exItems23} fiscal={"Fiscal Year 2023-2024"}/>
     <HallCarousel exItems={exItems22} fiscal={"Fiscal Year 2022-2023"}/>
-    <HallCarousel fiscal={"Fiscal Year 2023-2024"}/>
-    <HallCarousel fiscal={"Fiscal Year 2023-2024"}/>
+    <HallCarousel exItems={exItems21} fiscal={"Fiscal Year 2020-2021"}/>
+    <HallCarousel exItems={exItems19} fiscal={"Fiscal Year 2019-2020"}/>
 
 </div>
     </div>

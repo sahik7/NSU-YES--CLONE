@@ -47,7 +47,8 @@ export const exItems22 = [
     {
         img:"https://nsuyes.org/wp-content/uploads/2024/09/Zeba-Fareha-Hossain-1284x1536.webp",
         name:"Zeba Fareha Hossain",
-        position:"Ms. Zeba Fareha Hossain was a catalyst for innovation at NSU YES!. She championed creative initiatives and enhanced the club’s publications. Her roles as an Ignite Campus Ambassador for Marico Bangladesh and a Senior Sales Executive at 10 Minute School showcased her diverse expertise. She inspired those around her with her dedication and collaborative spirit, making her an exemplary figure in the club.",
+        position:"Vice President(Marketing & Branding)",
+        description:"Ms. Zeba Fareha Hossain was a catalyst for innovation at NSU YES!. She championed creative initiatives and enhanced the club’s publications. Her roles as an Ignite Campus Ambassador for Marico Bangladesh and a Senior Sales Executive at 10 Minute School showcased her diverse expertise. She inspired those around her with her dedication and collaborative spirit, making her an exemplary figure in the club.",
         Flink:"https://www.facebook.com/zebafareha.hossain",
         Llink:"https://www.linkedin.com/in/zeba-fareha-hossain/",
 

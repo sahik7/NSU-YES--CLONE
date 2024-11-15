@@ -22,7 +22,7 @@ function HallCarousel({fiscal,exItems = [] }) {
     
       return (
         <div className="relative w-full md:h-[35rem] h-[60rem] bg-[url('https://nsuyes.org/wp-content/uploads/2024/09/8f600e9e-3d92-4dde-9ecf-53105d16c286.webp')] bg-cover bg-center flex flex-col justify-center text-white">
-          <div className="absolute inset-0 bg-black/85 z-0 py-14">
+          <div className="absolute inset-0 bg-black/85 z-0 py-10">
           <div>
 
           <h1 className='text-center text-3xl md:text-4xl font-semibold font-poppins'>EXECUTIVE BODY MEMBERS</h1>
@@ -35,7 +35,7 @@ function HallCarousel({fiscal,exItems = [] }) {
         </div>
           </div>
           </div>
-          <Slider {...settings} className="mx-8 md:mx-20 relative inset-0 md:top-12 top-14">
+          <Slider {...settings} className="mx-8 md:mx-20 relative inset-0 md:top-12 top-20">
             {exItems.map(item => (
               <div key={item.name} className="md:px-28 md:text-left text-center">
                 <div className="border-[.2px] border-gray-500 grid md:grid-cols-10  p-4 rounded-[35px]">

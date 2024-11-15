@@ -35,8 +35,8 @@ function Footer() {
            <div>
           <h3 className="text-lg font-semibold mb-2">Governing Panel</h3>
             <div className="space-y-2 text-xs flex flex-col">
-            <Link>Executive Board</Link>
-            <Link>Sub-Executive Board</Link>
+            <Link to="/executive-board">Executive Board</Link>
+            <Link to="/sub-executive-board">Sub-Executive Board</Link>
           </div></div>
 
 
@@ -44,8 +44,8 @@ function Footer() {
            <div>
           <h3 className="text-lg font-semibold mb-2">Faculty Advisor</h3>
             <div className="space-y-2 text-xs flex flex-col">
-            <Link>Samuel Mursalin</Link>
-            <Link>Previous Advisors</Link>
+            <Link to="/mirza-m-ferdous">Mirza M. Ferdous</Link>
+            <Link to="/previous-advisors">Previous Advisors</Link>
           </div></div>
 
 

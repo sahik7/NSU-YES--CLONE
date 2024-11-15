@@ -72,7 +72,7 @@ export default function Navbar() {
               )}
             </div>
             <NavLink className={"item-effect"} to="/publications">PUBLICATIONS</NavLink>
-            <NavLink className={"item-effect"} to="/hall-of-fame ">HALL OF FAME</NavLink>
+            <NavLink className={"item-effect"} to="/hall-of-fame">HALL OF FAME</NavLink>
           </nav>
         </div>
       </div>
